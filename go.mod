@@ -1,4 +1,4 @@
-module git.shannonai.com/taoshibo/go-module-demo
+module github.com/irgb/go-module-demo
 
 go 1.12
 
