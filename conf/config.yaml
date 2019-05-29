@@ -1,5 +1,5 @@
 log:
-    level: DEBUG # DEBUG, INFO, WARN, ERROR
+    level: INFO # DEBUG, INFO, WARN, ERROR
     encoding: json
     outputPaths: ['logs/go-module-demo.log'] # only active in non-debug mode
     errorOutputPaths: ['logs/go-module-demo.err.log'] # only active in non-debug mode

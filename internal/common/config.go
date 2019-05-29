@@ -18,7 +18,7 @@ type T struct {
 var Config T
 
 func init() {
-    content, err := ioutil.ReadFile("config.yaml")
+    content, err := ioutil.ReadFile("conf/config.yaml")
     if err != nil {
         panic("read config file failed")
     }

@@ -1,10 +1,12 @@
 package main
 
 import (
+    "golang.org/x/text/message"
     hellomod "git.shannonai.com/taoshibo/hellomod"
     hellomodV2 "git.shannonai.com/taoshibo/hellomod/v2"
-    "git.shannonai.com/taoshibo/go-module-demo/util"
-    "golang.org/x/text/message"
+    "github.com/irgb/go-demo-lib/pkg/dump"
+    "git.shannonai.com/taoshibo/go-module-demo/internal/util"
+    "git.shannonai.com/taoshibo/go-module-demo/internal/common"
 )
 
 func main() {
@@ -14,4 +16,5 @@ func main() {
     hellomodV2.SayHello()
     util.Logger.Info("info")
     util.Logger.Fatal("fatal")
+    dump.Dump("ahaha")
 }
