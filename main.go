@@ -5,8 +5,8 @@ import (
     hellomod "git.shannonai.com/taoshibo/hellomod"
     hellomodV2 "git.shannonai.com/taoshibo/hellomod/v2"
     "github.com/irgb/go-demo-lib/pkg/dump"
-    "git.shannonai.com/taoshibo/go-module-demo/internal/util"
-    "git.shannonai.com/taoshibo/go-module-demo/internal/common"
+    "github.com/irgb/go-module-demo/internal/util"
+    "github.com/irgb/go-module-demo/internal/common"
 )
 
 func main() {

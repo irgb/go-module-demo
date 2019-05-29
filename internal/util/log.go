@@ -8,7 +8,7 @@ import (
     "go.uber.org/zap"
     "go.uber.org/zap/zapcore"
 
-    . "git.shannonai.com/taoshibo/go-module-demo/internal/common"
+    . "github.com/irgb/go-module-demo/internal/common"
 )
 
 var Logger *zap.SugaredLogger

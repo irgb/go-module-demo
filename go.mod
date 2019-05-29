@@ -5,7 +5,7 @@ go 1.12
 require (
 	git.shannonai.com/taoshibo/hellomod v1.2.0
 	git.shannonai.com/taoshibo/hellomod/v2 v2.0.1
-	github.com/irgb/go-demo-lib v0.0.0-20190528111858-115a866a4900
+	github.com/irgb/go-demo-lib v0.0.0-20190529074751-168b8e88876f
 	github.com/stretchr/objx v0.2.0 // indirect
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
